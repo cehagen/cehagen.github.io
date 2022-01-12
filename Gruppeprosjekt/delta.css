@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'poppins', sans-serif;
+  }
+
+.hjemknapp{
+  display: flex;
+}
+
+.teksth{
+  border: 2px solid #000;
+  width: 60px;
+  height: 30px;
+  padding: 5px;
+  margin: 5px;
+}
+
+#hjem{
+  color: blue;
+  font-size: 25px;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4, 9, 30, 0.7)), url(./bilder/miljo.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+.headerR{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4, 9, 30, 0.7)), url(./bilder/rettigheter.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+
+.headerP{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4, 9, 30, 0.7)), url(./bilder/politikk.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+
+.headerPO{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4, 9, 30, 0.7)), url(./bilder/politisk_fravaer.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+
+.overskrift{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 70%;
+    border-bottom: 1px solid #eee
+  }
+
+.overskrift  h1{
+    font-size: 150px;
+    color: #fff;
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+.grupper {
+  text-align: center;
+  margin: 30px;
+}
+
+.grupper h1 {
+  font-size: 60px;
+}
+
+.grupper p {
+  font-size: 30px;
+  border-bottom: 1px solid #000;
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  background-color: #000;
+  padding: 10px;
+}
+
+ul li{
+  margin: 20px;
+  text-align: left;
+  list-style-type: none;
+}
+
+ul li a:hover{
+  color: cyan;
+  background-color: #000;
+  padding: 10px; 
+  border: #000 solid 1 px;
+}
+
+.bilde img{
+  height: auto;
+  width: 70%;
+}
+
+.container{
+  display:flex;
+  justify-content: space-between;
+}
+
+.PO_hoved {
+  margin: 20px;
+}
+
+
+@media(max-width: 700px){
+
+  .overskrift h1{
+    font-size: 200%;
+  }
+
+  .grupper h1 {
+    font-size: 30px;
+   }
+   
+  .grupper p {
+  font-size: 18px;
+  }
+  ul li a {
+  font-size: 18px;
+}
+
+
+}
